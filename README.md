@@ -41,5 +41,5 @@ this.$message({
     message:'hello vill-message'
 });
 ```
-# LICENCE
-MIT
+## License
+[MIT](http://opensource.org/licenses/MIT)
