@@ -47,6 +47,6 @@ this.$message({
 |----- | ----- | ----- | ----- 
 | type | 可选值 success/error/info/warning| String | -
 | meesage | must | String | -
-| duration | canselect | String | -
+| duration | canselect | String | 1500ms
 ## License
 [MIT](http://opensource.org/licenses/MIT)
