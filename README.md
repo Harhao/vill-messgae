@@ -41,3 +41,5 @@ this.$message({
     message:'hello vill-message'
 });
 ```
+# LICENCE
+MIT
