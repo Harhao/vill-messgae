@@ -1,21 +1,24 @@
-# y
+# vill-message
 
-> a vue plugin about messgae
+> a vue plugins about notice or toast
 
 ## Build Setup
 
+
+### install the plugin on bash
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+npm install vill-message --save-dev
+```
+### register the plugins on the vue project in the entry file (main.js)
+```
+import message from 'vill-message'
+Vue.use(message);
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### on the vue template file ,you can use it by
+```
+this.$message.success("hello world");
+this.$message.error("hello world");
+this.$message.warning("hello world");
+this.$message.info("hello world");
+```

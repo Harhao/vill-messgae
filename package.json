@@ -1,7 +1,16 @@
 {
   "name": "vill-message",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "license": "MIT",
+  "keywords":[
+    "vue",
+    "message",
+    "notice",
+    "toast",
+    "vue-message",
+    "vill-message",
+    "messageBox"
+  ],
   "main": "./src/lib/vill_message/index.js",
   "repository": {
     "type": "git",
