@@ -40,6 +40,13 @@ this.$message({
     type:'error',
     message:'hello vill-message'
 });
+
 ```
+
+| 字段 | 说明 | 类型 | 默认值
+|----- | ----- | ----- | ----- 
+| type | 可选值 success/error/info/warning| String | -
+| meesage | must | String | -
+| duration | canselect | String | -
 ## License
 [MIT](http://opensource.org/licenses/MIT)
