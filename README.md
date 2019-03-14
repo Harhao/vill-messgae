@@ -46,7 +46,7 @@ this.$message({
 | 字段 | 说明 | 类型 | 默认值
 |----- | ----- | ----- | ----- 
 | type | 可选值 success/error/info/warning| String | -
-| meesage | must | String | -
-| duration | canselect | String | 1500ms
+| meesage | 必选值，提示信息 | String | -
+| duration | 可选值 | Number | 1500ms
 ## License
 [MIT](http://opensource.org/licenses/MIT)
