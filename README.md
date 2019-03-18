@@ -48,5 +48,7 @@ this.$message({
 | type | 可选值 success/error/info/warning| String | -
 | meesage | 必选值，提示信息 | String | -
 | duration | 可选值 | Number | 1500ms
+### demos
+![demo](https://github.com/Harhao/vill-messgae/blob/master/src/lib/demo.gif)
 ## License
 [MIT](http://opensource.org/licenses/MIT)
